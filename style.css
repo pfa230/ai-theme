@@ -105,7 +105,8 @@ body {
     filter: none;
 }
 
-.menu .current_page_item a {
+.menu .current_page_item a,
+.menu .current-menu-parent a {
     background: #abc40b;
     color: #fff;
 }
@@ -162,7 +163,6 @@ body {
 }
 
 .sub-header-menu .current_page_item a,
-.sub-header-menu .current-menu-parent a,
 .sub-header-menu .current-menu-item a {
     background: #abc40b;
     background: rgba(249, 249, 249, 0.75);
