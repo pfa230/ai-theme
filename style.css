@@ -125,7 +125,7 @@ body {
 }
 
 .menu li li a {
-    color: white;
+    color: white !important;
 }
 
 .menu li li a:hover {
