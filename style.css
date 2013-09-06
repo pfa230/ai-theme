@@ -134,8 +134,8 @@ body {
 }
 
 .menu li li a:hover {
-    background-color: #e8f4fd;
-    color: black !important;
+    background: #abc40b;
+    color: #fff !important;
 }
 
 /* =Responsive Menu
