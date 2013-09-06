@@ -96,6 +96,8 @@ body {
     border-color: #373e3e;
     color: #fff;
     text-shadow: none;
+    font-size: 17px;
+    font-weight: normal;
 }
 
 .menu a:hover {
@@ -122,6 +124,7 @@ body {
 
 .menu .sub-menu a {
     color: #444;
+    font-size: 15px;
 }
 
 .menu li li {
