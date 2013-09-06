@@ -134,7 +134,7 @@ body {
 }
 
 .menu li li a:hover {
-    background: #abc40b;
+    background: #abc40b !important;
     color: #fff !important;
 }
 
