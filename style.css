@@ -106,11 +106,16 @@ body {
 }
 
 .menu .current_page_item a,
-.menu .current-menu-parent a,
-.menu .sub-menu .current_page_item a  {
+.menu .current-menu-parent a {
     background: #abc40b;
     color: #fff;
 }
+
+.menu .sub-menu .current_page_item a {
+    background: #abc40b;
+    color: #fff;
+}
+
 
 .home .menu .current_page_item a {
     color: #fff;
