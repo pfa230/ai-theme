@@ -125,11 +125,11 @@ body {
 }
 
 .menu li li a {
-    color: white !important;
+    color: white;
 }
 
 .menu li li a:hover {
-    background-color: #e8f4fd !important;
+    background-color: #e8f4fd;
     color: black !important;
 }
 
