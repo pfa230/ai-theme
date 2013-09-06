@@ -107,8 +107,7 @@ body {
 }
 
 .menu .current_page_item a {
-    background: #c4620c;
-    background: rgba(225, 96, 58, 0.75);
+    background: #abc40b;
     color: #fff;
 }
 
