@@ -111,7 +111,7 @@ body {
     color: #fff;
 }
 
-.menu li.sub-menu li.current_page_item a {
+.menu li ul.sub-menu li.current_page_item a {
     background: #abc40b;
     color: #fff;
 }
