@@ -5,6 +5,7 @@ if ( !defined('ABSPATH')) exit;
 
 /**
  * Header Template
+ * Based on Responsive theme sources
  *
  *
  * @file           header.php
