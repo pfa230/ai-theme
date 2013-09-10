@@ -9,7 +9,7 @@ if ( !defined('ABSPATH')) exit;
  *
  * @file           functions.php
  * @package        AI
- * @author         Emil Uzelac, Ulrich Pogson 
+ * @author         Emil Uzelac, Ulrich Pogson, Fedir Panasenko
  * @copyright      2003 - 2013 ThemeID
  * @license        license.txt
  * @version        Release: 1.1.2
@@ -115,3 +115,5 @@ function ai_init_session() {
     session_start();
 }
 add_action('init', 'ai_init_session', 1);
+
+add_filter( 'comment_reply_link', '__return_false' );
