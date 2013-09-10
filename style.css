@@ -717,6 +717,14 @@ a.black:hover {
     color: #080808;
 }
 
+.comment-body .comment-meta {
+    float: right;
+}
+
+.comment-body .comment-author {
+    float: left;
+}
+
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
