@@ -725,6 +725,13 @@ a.black:hover {
     float: left;
 }
 
+.parent .comment-body p {
+    font-weight: bold;
+}
+
+.comment-body p {
+    margin: 0;
+}
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
