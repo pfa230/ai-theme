@@ -733,6 +733,11 @@ a.black:hover {
 .children .comment-body p {
     font-weight: normal;
 }
+
+.children .comment-author, .children .commentmetadata {
+    display: none;
+}
+
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
