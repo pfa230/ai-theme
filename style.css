@@ -732,10 +732,17 @@ a.black:hover {
     font-weight: normal;
 }
 
+.comment-body .reply {
+    display: none;
+}
+
 .children .comment-author, .children .commentmetadata {
     display: none;
 }
 
+.commentlist .children {
+    padding-top: 0;
+}
 /* =Footer
 -------------------------------------------------------------- */
 #footer {
