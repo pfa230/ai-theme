@@ -725,12 +725,13 @@ a.black:hover {
     float: left;
 }
 
-.parent .comment-body p {
+.comment-body p {
     font-weight: bold;
+    margin: 0;
 }
 
-.comment-body p {
-    margin: 0;
+.children .comment-body p {
+    font-weight: normal;
 }
 /* =Footer
 -------------------------------------------------------------- */
