@@ -702,11 +702,9 @@ a.black:hover {
 
 .commentlist li.odd {
     background-color: #f9f9f9;
-    padding: 10px;
 }
 
 .commentlist li.even {
-    padding: 10px;
 }
 
 .comment-body .comment-meta a {
