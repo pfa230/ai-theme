@@ -78,6 +78,7 @@ if (!empty($comments_by_type['pings'])) : // let's seperate pings/trackbacks fro
 
     $defaults = array('title_reply'=>'Запитати:', 'fields' => apply_filters('comment_form_default_fields', $fields));
 
+
     comment_form($defaults);
     ?>
 
