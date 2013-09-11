@@ -76,7 +76,7 @@ if (!empty($comments_by_type['pings'])) : // let's seperate pings/trackbacks fro
         '<input id="email" name="email" type="text" value="' . esc_attr($commenter['comment_author_email']) . '" size="30" /></p>',
     );
 
-    $defaults = array('fields' => apply_filters('comment_form_default_fields', $fields));
+    $defaults = array('title_reply'=>'Задать вопрос:', 'fields' => apply_filters('comment_form_default_fields', $fields));
 
     comment_form($defaults);
     ?>
